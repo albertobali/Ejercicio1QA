@@ -1,0 +1,21 @@
+Conclusión del Ejercicio 2 de Automatización - Flujo de Compra en la pagina https://www.saucedemo.com
+
+Éxito de la Autenticación:
+- La autenticación con el usuario standard_user y la contraseña secret_sauce se ha ejecutado con éxito.
+
+Agregación de Productos al Carrito:
+
+- La funcionalidad de agregar dos productos al carrito ha sido exitosa.
+- Se ha confirmado que los productos seleccionados se reflejan correctamente en el carrito de compras.
+
+Visualización del Carrito:
+
+- La visualización del carrito ha sido exitosa, mostrando los productos agregados y sus detalles correspondientes.
+
+Completar el Formulario de Compra:
+
+- El formulario de compra se ha completado correctamente, incluyendo la información necesaria para la entrega.
+
+Finalización de la Compra:
+
+- La compra ha sido finalizada hasta la confirmación, y se ha alcanzado con éxito el mensaje "THANK YOU FOR YOUR ORDER!".
