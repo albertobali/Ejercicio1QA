@@ -12,7 +12,7 @@ Instrucciones de instalación
 Instrucciones de ejecución
 - Abre el proyecto en tu IDE.
 - Ejecuta las pruebas con el siguiente comando:
-  mvn verify -Dcucumber.options="--tags @AUTOMATIZACION_SAUCEDEMO"
+ * mvn verify -Dcucumber.options="--tags @AUTOMATIZACION_SAUCEDEMO"
 - El reporte Serenity se encuentra en la siguiente ruta:
-  /target/site/serenity/index.html
+*  /target/site/serenity/index.html
 
