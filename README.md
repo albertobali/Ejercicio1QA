@@ -12,4 +12,5 @@ Instrucciones de instalación
 Instrucciones de ejecución
 - Abre el proyecto en tu IDE.
 - Ejecuta las pruebas con el siguiente comando:
-- mvn test -Dcucumber.filter.tags="@AUTOMATIZACION_SAUCEDEMO"
+ mvn verify -Dcucumber.options="--tags @AUTOMATIZACION_SAUCEDEMO"
+

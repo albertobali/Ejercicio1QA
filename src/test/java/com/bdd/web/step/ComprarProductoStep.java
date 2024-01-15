@@ -69,7 +69,8 @@ public class ComprarProductoStep {
     }
 
     @Step
-    public String confirmacionCompra() {
+    public String confirmacionCompra() throws InterruptedException {
+        TimeUnit.SECONDS.sleep(2);
         String mensaje = ComprarProductoPage().checkoutComplete().getText();
         System.out.println(mensaje);
         driver.quit();

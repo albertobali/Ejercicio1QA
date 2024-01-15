@@ -41,7 +41,7 @@ public class ComprarProductoStepDef {
         comprarProductoStep.finalizarCompra();
     }
     @Y("se muestra el mensaje {string}")
-    public void se_muestra_el_mensaje(String mensaje) {
+    public void se_muestra_el_mensaje(String mensaje) throws InterruptedException {
         Assert.assertEquals(mensaje,comprarProductoStep.confirmacionCompra());
     }
 
